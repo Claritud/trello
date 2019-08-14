@@ -1,0 +1,40 @@
+.addColumn {
+    width: 250px;
+    height: 80px;
+    border-radius: 5px;
+    background-color: #e7777786;
+    padding: 5px;
+    margin: 10px 10px;
+
+}
+.close-icon {
+    cursor: pointer;
+}
+
+.button-icon-container {
+    display: flex;
+    align-items: center;
+}
+
+.add-list {
+    display: flex;
+    align-items: center;
+    background-color: #e77777b7;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 15px;
+    margin: 10px 10px;
+    cursor: pointer;
+    transition: .3s;
+
+    p {
+        margin-left: 10px;
+    }
+
+    &:hover {
+        background-color: #ee8f8fec;
+        color: white;
+    }
+}

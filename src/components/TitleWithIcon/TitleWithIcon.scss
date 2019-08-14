@@ -1,0 +1,39 @@
+
+.title-with-icon {
+    display: flex;
+    align-items: center;
+    min-height: 32px;
+    padding: 8px 0;
+    position: relative;
+    margin: 5px;
+    
+    p {
+        display: inline-block;
+        width: auto;
+        margin: 0;
+        min-height: 18px;
+        min-width: 40px;
+        margin-left: 10px;
+    }
+}
+
+.title-small {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+
+}
+
+.title-big {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    margin: 0 0 8px;
+
+}
+
+.title-medium {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+}

@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'; //aca no solo vamos a importar archivos nuestros si no tambien librerias.
+import NavHeader from 'components/NavHeader/NavHeader';
+import Dashboard from 'components/Dashboard/Dashboard';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const styles = {
+    margin: '0',
+    backgroundColor: '#f8f8f8',
+    display: 'flex',
+    flexDirection: 'column'
 }
+
+const App = () => (  
+  <div 
+  style={styles}
+  className='App'>
+    <NavHeader></NavHeader>
+    <Dashboard></Dashboard>
+  </div>         
+  
+)
 
 export default App;
